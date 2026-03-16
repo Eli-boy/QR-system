@@ -1,0 +1,17 @@
+{
+  "name": "findme-system",
+  "version": "1.0.0",
+  "description": "QR lost and found system",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^17.0.0",
+    "express": "^4.18.2",
+    "postgres": "^3.4.3",
+    "qrcode": "^1.5.3"
+  }
+}
